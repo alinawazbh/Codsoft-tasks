@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float num1,num2;
+	//taking input from the user
+	cout<<"ENTER THE FIRST NUMBER: ";
+	cin>>num1;
+	cout<<"ENTER THE SECOND NUMBER: ";
+	cin>>num2;
+	
+
+	char op;
+	cout<<"ENTER THE OPERATOR: ";
+	cin>>op;
+	switch(op){
+		case '+':
+			cout<<"THE ADDITION OF THE NUMBERS IS: "<<num1+num2;
+			break;
+		case '-':
+			cout<<"THE SUBTRACTION OF THE NUMBERS IS: "<<num1-num2;
+			break;
+		case '*':
+			cout<<"THE MULTIPLICATION OF THE NUMBERS IS: "<<num1*num2;
+			break;
+		case '/':
+			cout<<"THE DIVISION OF THE NUMBERS IS: "<<num1/num2;
+			break;
+		
+	}
+
+	
+}
